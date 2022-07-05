@@ -384,3 +384,5 @@ FodyWeavers.xsd
 /Settings.ini
 .vscode/settings.json
 /.settings
+*.stash
+/lib

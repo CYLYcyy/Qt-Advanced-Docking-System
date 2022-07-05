@@ -1,0 +1,97 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qtadvanceddocking", "src\qtadvanceddocking.vcxproj", "{C4C63087-B17B-3EAD-8DE7-B2336F46208C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AdvancedDockingSystemDemo", "demo\AdvancedDockingSystemDemo.vcxproj", "{581B9DB5-1F87-3E33-8224-F931E1E8D672}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C4C63087-B17B-3EAD-8DE7-B2336F46208C} = {C4C63087-B17B-3EAD-8DE7-B2336F46208C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CentralWidgetExample", "examples\centralwidget\CentralWidgetExample.vcxproj", "{9662D747-CBA3-3DCE-8B28-AA2E81313EEB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C4C63087-B17B-3EAD-8DE7-B2336F46208C} = {C4C63087-B17B-3EAD-8DE7-B2336F46208C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleExample", "examples\simple\SimpleExample.vcxproj", "{3C23CF24-3FB3-382B-9D47-DB5BF58EE631}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C4C63087-B17B-3EAD-8DE7-B2336F46208C} = {C4C63087-B17B-3EAD-8DE7-B2336F46208C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HideShowExample", "examples\hideshow\HideShowExample.vcxproj", "{693DF362-87E9-3208-BC81-898BE7B7E081}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C4C63087-B17B-3EAD-8DE7-B2336F46208C} = {C4C63087-B17B-3EAD-8DE7-B2336F46208C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SidebarExample", "examples\sidebar\SidebarExample.vcxproj", "{D4B441A5-9066-3F33-B046-10FE40FEA5AC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C4C63087-B17B-3EAD-8DE7-B2336F46208C} = {C4C63087-B17B-3EAD-8DE7-B2336F46208C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DeleteOnCloseTest", "examples\deleteonclose\DeleteOnCloseTest.vcxproj", "{8E92251C-0C0B-3936-AB54-12DA0EDEBC81}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C4C63087-B17B-3EAD-8DE7-B2336F46208C} = {C4C63087-B17B-3EAD-8DE7-B2336F46208C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EmptyDockareaExample", "examples\emptydockarea\EmptyDockareaExample.vcxproj", "{2042DA34-D583-3476-A922-F420EBDEEEC8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C4C63087-B17B-3EAD-8DE7-B2336F46208C} = {C4C63087-B17B-3EAD-8DE7-B2336F46208C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DockInDock", "examples\dockindock\DockInDock.vcxproj", "{4E859218-3B88-33C9-898C-9F79A2475064}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C4C63087-B17B-3EAD-8DE7-B2336F46208C} = {C4C63087-B17B-3EAD-8DE7-B2336F46208C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4C63087-B17B-3EAD-8DE7-B2336F46208C}.Debug|x64.ActiveCfg = Debug|x64
+		{C4C63087-B17B-3EAD-8DE7-B2336F46208C}.Debug|x64.Build.0 = Debug|x64
+		{C4C63087-B17B-3EAD-8DE7-B2336F46208C}.Release|x64.ActiveCfg = Release|x64
+		{C4C63087-B17B-3EAD-8DE7-B2336F46208C}.Release|x64.Build.0 = Release|x64
+		{581B9DB5-1F87-3E33-8224-F931E1E8D672}.Debug|x64.ActiveCfg = Debug|x64
+		{581B9DB5-1F87-3E33-8224-F931E1E8D672}.Debug|x64.Build.0 = Debug|x64
+		{581B9DB5-1F87-3E33-8224-F931E1E8D672}.Release|x64.ActiveCfg = Release|x64
+		{581B9DB5-1F87-3E33-8224-F931E1E8D672}.Release|x64.Build.0 = Release|x64
+		{9662D747-CBA3-3DCE-8B28-AA2E81313EEB}.Debug|x64.ActiveCfg = Debug|x64
+		{9662D747-CBA3-3DCE-8B28-AA2E81313EEB}.Debug|x64.Build.0 = Debug|x64
+		{9662D747-CBA3-3DCE-8B28-AA2E81313EEB}.Release|x64.ActiveCfg = Release|x64
+		{9662D747-CBA3-3DCE-8B28-AA2E81313EEB}.Release|x64.Build.0 = Release|x64
+		{3C23CF24-3FB3-382B-9D47-DB5BF58EE631}.Debug|x64.ActiveCfg = Debug|x64
+		{3C23CF24-3FB3-382B-9D47-DB5BF58EE631}.Debug|x64.Build.0 = Debug|x64
+		{3C23CF24-3FB3-382B-9D47-DB5BF58EE631}.Release|x64.ActiveCfg = Release|x64
+		{3C23CF24-3FB3-382B-9D47-DB5BF58EE631}.Release|x64.Build.0 = Release|x64
+		{693DF362-87E9-3208-BC81-898BE7B7E081}.Debug|x64.ActiveCfg = Debug|x64
+		{693DF362-87E9-3208-BC81-898BE7B7E081}.Debug|x64.Build.0 = Debug|x64
+		{693DF362-87E9-3208-BC81-898BE7B7E081}.Release|x64.ActiveCfg = Release|x64
+		{693DF362-87E9-3208-BC81-898BE7B7E081}.Release|x64.Build.0 = Release|x64
+		{D4B441A5-9066-3F33-B046-10FE40FEA5AC}.Debug|x64.ActiveCfg = Debug|x64
+		{D4B441A5-9066-3F33-B046-10FE40FEA5AC}.Debug|x64.Build.0 = Debug|x64
+		{D4B441A5-9066-3F33-B046-10FE40FEA5AC}.Release|x64.ActiveCfg = Release|x64
+		{D4B441A5-9066-3F33-B046-10FE40FEA5AC}.Release|x64.Build.0 = Release|x64
+		{8E92251C-0C0B-3936-AB54-12DA0EDEBC81}.Debug|x64.ActiveCfg = Debug|x64
+		{8E92251C-0C0B-3936-AB54-12DA0EDEBC81}.Debug|x64.Build.0 = Debug|x64
+		{8E92251C-0C0B-3936-AB54-12DA0EDEBC81}.Release|x64.ActiveCfg = Release|x64
+		{8E92251C-0C0B-3936-AB54-12DA0EDEBC81}.Release|x64.Build.0 = Release|x64
+		{2042DA34-D583-3476-A922-F420EBDEEEC8}.Debug|x64.ActiveCfg = Debug|x64
+		{2042DA34-D583-3476-A922-F420EBDEEEC8}.Debug|x64.Build.0 = Debug|x64
+		{2042DA34-D583-3476-A922-F420EBDEEEC8}.Release|x64.ActiveCfg = Release|x64
+		{2042DA34-D583-3476-A922-F420EBDEEEC8}.Release|x64.Build.0 = Release|x64
+		{4E859218-3B88-33C9-898C-9F79A2475064}.Debug|x64.ActiveCfg = Debug|x64
+		{4E859218-3B88-33C9-898C-9F79A2475064}.Debug|x64.Build.0 = Debug|x64
+		{4E859218-3B88-33C9-898C-9F79A2475064}.Release|x64.ActiveCfg = Release|x64
+		{4E859218-3B88-33C9-898C-9F79A2475064}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		Qt5Version = 6.3.1_msvc2019_64
+		SolutionGuid = {6C5C8B5E-6046-4EC2-A85B-256E129EC86F}
+	EndGlobalSection
+EndGlobal
